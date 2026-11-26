@@ -1,0 +1,9 @@
+streamlit>=1.45
+sqlalchemy>=2.0
+bcrypt>=4.0
+faiss-cpu>=1.8
+sentence-transformers>=2.7   # semantic embeddings (all-MiniLM-L6-v2); falls back to an offline hashing embedder if unavailable
+scikit-learn>=1.3            # hashing fallback embedder
+numpy>=1.24
+pandas>=2.0
+pytest>=8.0

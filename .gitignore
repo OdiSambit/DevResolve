@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+vector_store/faiss.index
+vector_store/metadata.json
+evaluation/results.json
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Additional local files
+*.sqlite
+*.sqlite3
+*.log
+.DS_Store

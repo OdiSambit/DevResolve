@@ -1,0 +1,141 @@
+{
+  "description": "Retrieval evaluation set. Empty expected_titles = no relevant record exists (should trigger insufficient evidence).",
+  "questions": [
+    {
+      "query": "Why can't Python find pandas even though I pip installed it?",
+      "expected_titles": [
+        "ModuleNotFoundError for pandas even though it is installed"
+      ]
+    },
+    {
+      "query": "pip command not recognized in Windows terminal",
+      "expected_titles": [
+        "pip is not recognized as an internal or external command"
+      ]
+    },
+    {
+      "query": "pip install says environment is externally managed on Ubuntu",
+      "expected_titles": [
+        "pip install fails with externally-managed-environment"
+      ]
+    },
+    {
+      "query": "requests fails with certificate verify failed on my Mac",
+      "expected_titles": [
+        "SSL: CERTIFICATE_VERIFY_FAILED when using requests or pip"
+      ]
+    },
+    {
+      "query": "reading a utf-8 csv crashes with charmap codec can't decode",
+      "expected_titles": [
+        "UnicodeDecodeError charmap codec cannot decode byte when reading a file"
+      ]
+    },
+    {
+      "query": "my own random.py file breaks import random",
+      "expected_titles": [
+        "AttributeError: partially initialized module 'random' has no attribute 'randint'"
+      ]
+    },
+    {
+      "query": "can't activate virtual environment in PowerShell, scripts disabled",
+      "expected_titles": [
+        "venv activation blocked: running scripts is disabled on this system"
+      ]
+    },
+    {
+      "query": "Java says could not find or load main class after compiling",
+      "expected_titles": [
+        "Error: Could not find or load main class Main"
+      ]
+    },
+    {
+      "query": "compiled with JDK 17 but server runs Java 11, class file version error",
+      "expected_titles": [
+        "UnsupportedClassVersionError class file version 61.0"
+      ]
+    },
+    {
+      "query": "Why is Git rejecting my push with non-fast-forward?",
+      "expected_titles": [
+        "Push rejected: non-fast-forward, fetch first"
+      ]
+    },
+    {
+      "query": "git asks for password then says authentication failed on GitHub",
+      "expected_titles": [
+        "Git push rejected: password authentication was removed"
+      ]
+    },
+    {
+      "query": "git clone over SSH says permission denied publickey",
+      "expected_titles": [
+        "Permission denied (publickey) when cloning over SSH"
+      ]
+    },
+    {
+      "query": "React component crashes with too many re-renders on click",
+      "expected_titles": [
+        "Too many re-renders. React limits the number of renders"
+      ]
+    },
+    {
+      "query": "npm install ERESOLVE peer dependency conflict with react 18",
+      "expected_titles": [
+        "npm install ERESOLVE unable to resolve dependency tree"
+      ]
+    },
+    {
+      "query": "fetch blocked by CORS policy from localhost:3000",
+      "expected_titles": [
+        "CORS error: blocked by CORS policy, no Access-Control-Allow-Origin header"
+      ]
+    },
+    {
+      "query": "Why is Docker saying port already allocated?",
+      "expected_titles": [
+        "Docker port is already allocated"
+      ]
+    },
+    {
+      "query": "docker build no space left on device",
+      "expected_titles": [
+        "no space left on device during docker build"
+      ]
+    },
+    {
+      "query": "SQLite database is locked when writing from python",
+      "expected_titles": [
+        "sqlite3.OperationalError: database is locked"
+      ]
+    },
+    {
+      "query": "Cannot add child row foreign key constraint fails",
+      "expected_titles": [
+        "Cannot add or update a child row: a foreign key constraint fails"
+      ]
+    },
+    {
+      "query": "zsh command not found code when opening VS Code from terminal",
+      "expected_titles": [
+        "zsh: command not found: code"
+      ]
+    },
+    {
+      "query": "How do I bake sourdough bread at home?",
+      "expected_titles": []
+    },
+    {
+      "query": "Kubernetes pod stuck in CrashLoopBackOff",
+      "expected_titles": []
+    },
+    {
+      "query": "Rust borrow checker error E0382 use of moved value",
+      "expected_titles": []
+    },
+    {
+      "query": "What is the capital of France?",
+      "expected_titles": []
+    }
+  ]
+}
